@@ -1,0 +1,214 @@
+-- Made by 1235dpp
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Funky = Instance.new("TextButton")
+local Breaking = Instance.new("TextButton")
+local KAT = Instance.new("TextButton")
+local TOH = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local Nullware = Instance.new("TextButton")
+local BuildABoat = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local CBRO = Instance.new("TextButton")
+local Ragdoll = Instance.new("TextButton")
+local Impasta = Instance.new("TextButton")
+local Text = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.Active = true
+Main.Draggable = true
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.160361424, 0, 0.281310201, 0)
+Main.Size = UDim2.new(0, 465, 0, 199)
+Main.Style = Enum.FrameStyle.RobloxSquare
+
+Funky.Name = "Funky"
+Funky.Parent = Main
+Funky.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Funky.Position = UDim2.new(0.00645161327, 0, 0.79396987, 0)
+Funky.Size = UDim2.new(0, 83, 0, 34)
+Funky.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Funky.Font = Enum.Font.SourceSans
+Funky.Text = "Funky Friday"
+Funky.TextColor3 = Color3.fromRGB(0, 0, 0)
+Funky.TextSize = 14.000
+Funky.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/madfucker/funkyfridayfker/main/source'))()
+end)
+
+Breaking.Name = "Breaking"
+Breaking.Parent = Main
+Breaking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Breaking.Position = UDim2.new(0.236559138, 0, 0.79396987, 0)
+Breaking.Size = UDim2.new(0, 83, 0, 34)
+Breaking.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Breaking.Font = Enum.Font.SourceSans
+Breaking.Text = "Breaking Point"
+Breaking.TextColor3 = Color3.fromRGB(0, 0, 0)
+Breaking.TextSize = 14.000
+Breaking.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/MLPypHYv', true))()
+end)
+
+KAT.Name = "KAT"
+KAT.Parent = Main
+KAT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KAT.Position = UDim2.new(0.460215032, 0, 0.79396987, 0)
+KAT.Size = UDim2.new(0, 83, 0, 34)
+KAT.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+KAT.Font = Enum.Font.SourceSans
+KAT.Text = "KAT"
+KAT.TextColor3 = Color3.fromRGB(0, 0, 0)
+KAT.TextSize = 14.000
+KAT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/mememasterboi/a-lot-of-scripts/master/Output%20(6).lua'),true))()
+end)
+
+TOH.Name = "TOH"
+TOH.Parent = Main
+TOH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TOH.Position = UDim2.new(0.690322578, 0, 0.79396987, 0)
+TOH.Size = UDim2.new(0, 83, 0, 34)
+TOH.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+TOH.Font = Enum.Font.SourceSans
+TOH.Text = "ToH"
+TOH.TextColor3 = Color3.fromRGB(0, 0, 0)
+TOH.TextSize = 14.000
+TOH.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Tower%20of%20Hell"))()
+end)
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.Position = UDim2.new(0.690322578, 0, 0.502512574, 0)
+InfiniteYield.Size = UDim2.new(0, 83, 0, 34)
+InfiniteYield.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Nullware.Name = "Nullware"
+Nullware.Parent = Main
+Nullware.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nullware.Position = UDim2.new(0.466666669, 0, 0.502512574, 0)
+Nullware.Size = UDim2.new(0, 83, 0, 34)
+Nullware.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Nullware.Font = Enum.Font.SourceSans
+Nullware.Text = "Nullware"
+Nullware.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nullware.TextSize = 14.000
+Nullware.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://paste.ee/r/lGZMc/0"))()
+end)
+
+BuildABoat.Name = "BuildABoat"
+BuildABoat.Parent = Main
+BuildABoat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BuildABoat.Position = UDim2.new(0.243010759, 0, 0.502512574, 0)
+BuildABoat.Size = UDim2.new(0, 83, 0, 34)
+BuildABoat.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+BuildABoat.Font = Enum.Font.SourceSans
+BuildABoat.Text = "Build A Boat"
+BuildABoat.TextColor3 = Color3.fromRGB(0, 0, 0)
+BuildABoat.TextSize = 14.000
+BuildABoat.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/S0LDR/lua-shit/master/protonbabft.lua", true))();
+end)
+
+MM2.Name = "MM2"
+MM2.Parent = Main
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.Position = UDim2.new(0.0129032284, 0, 0.502512574, 0)
+MM2.Size = UDim2.new(0, 83, 0, 34)
+MM2.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 14.000
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+end)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Main
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.0129032284, 0, 0.211055279, 0)
+Arsenal.Size = UDim2.new(0, 83, 0, 34)
+Arsenal.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/NougatBitz/DuckHub/master/Main.lua'))()
+end)
+
+CBRO.Name = "CBRO"
+CBRO.Parent = Main
+CBRO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CBRO.Position = UDim2.new(0.234408602, 0, 0.211055279, 0)
+CBRO.Size = UDim2.new(0, 83, 0, 34)
+CBRO.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+CBRO.Font = Enum.Font.SourceSans
+CBRO.Text = "CB RO"
+CBRO.TextColor3 = Color3.fromRGB(0, 0, 0)
+CBRO.TextSize = 14.000
+CBRO.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/mD76wEHC',true))()
+end)
+
+Ragdoll.Name = "Ragdoll"
+Ragdoll.Parent = Main
+Ragdoll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ragdoll.Position = UDim2.new(0.463639855, 0, 0.236793488, 0)
+Ragdoll.Size = UDim2.new(0, 84, 0, 35)
+Ragdoll.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Ragdoll.Font = Enum.Font.SourceSans
+Ragdoll.Text = "Ragdoll Engine"
+Ragdoll.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ragdoll.TextSize = 14.000
+Ragdoll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine%20Loader"))()
+end)
+
+Impasta.Name = "Impasta"
+Impasta.Parent = Main
+Impasta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Impasta.Position = UDim2.new(0.688784778, 0, 0.235550314, 0)
+Impasta.Size = UDim2.new(0, 89, 0, 35)
+Impasta.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+Impasta.Font = Enum.Font.SourceSans
+Impasta.Text = "Impostor"
+Impasta.TextColor3 = Color3.fromRGB(0, 0, 0)
+Impasta.TextSize = 14.000
+Impasta.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/5pfE51zr"))()
+end)
+
+Text.Name = "Text"
+Text.Parent = Main
+Text.Active = true
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.Position = UDim2.new(-0.0193344932, 0, 0.0044769235, 0)
+Text.Size = UDim2.new(0, 416, 0, 38)
+Text.Font = Enum.Font.Sarpanch
+Text.Text = "1235dpp's Gui"
+Text.TextColor3 = Color3.fromRGB(0, 0, 0)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
